@@ -1,0 +1,60 @@
+/* فونت فارسی */
+@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;600;800&display=swap');
+
+:root{
+  --bg: #0b1020;
+  --card: rgba(255,255,255,0.06);
+  --card2: rgba(255,255,255,0.08);
+  --text: rgba(255,255,255,0.92);
+  --muted: rgba(255,255,255,0.70);
+  --line: rgba(255,255,255,0.12);
+  --accent: #7c3aed;
+  --accent2:#22c55e;
+}
+
+body{
+  font-family: "Vazirmatn", sans-serif;
+  direction: rtl;
+  text-align: right;
+  background:
+    radial-gradient(1200px 700px at 80% -10%, rgba(124,58,237,0.35), transparent 60%),
+    radial-gradient(900px 600px at 10% 0%, rgba(34,197,94,0.20), transparent 55%),
+    linear-gradient(180deg, var(--bg), #060914 70%);
+  color: var(--text);
+}
+
+a{
+  color: #a78bfa;
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: underline;
+}
+
+h1{
+  font-size: 2.1rem;
+  margin-bottom: .4rem;
+}
+h2{
+  margin-top: 1.4rem;
+  border-top: 1px solid var(--line);
+  padding-top: .6rem;
+}
+
+.card{
+  background: linear-gradient(180deg, var(--card), var(--card2));
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  padding: 16px 18px;
+  margin: 14px 0;
+}
+
+.btn{
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 14px;
+  border-radius: 12px;
+  background: rgba(124,58,237,0.25);
+  border: 1px solid rgba(167,139,250,0.35);
+  color: white;
+  font-weight: 600;
